@@ -24,7 +24,7 @@ var bears = (function () {
 		*/
 		isBearCountReaching42 : function (n) {
 			var retVal = false;
-			if (n > 42) {
+			if (n < 42) {
 				return false;
 			}
 			if (n == 42) {
