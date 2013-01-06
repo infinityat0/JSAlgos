@@ -1,4 +1,4 @@
-var MATH2 = (function () {
+var Math2 = (function () {
 	// private methods here. 
 	var calculateGCD = function (numerator, denominator) {
 		var remainder = numerator % denominator ;
@@ -17,7 +17,7 @@ var MATH2 = (function () {
 		* It uses Euclid's algorithm for caluclating the GCD(m,n)
 		*/
 		LCM : function (m, n) {
-			return (m*n) / GCD(m, n);
+			return (m*n) / this.GCD(m, n);
 		},
 		/*
 		* Returns the GCD of 2 numbers m, n. 
